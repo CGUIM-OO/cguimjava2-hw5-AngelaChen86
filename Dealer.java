@@ -1,5 +1,6 @@
+package hw5;
 
-public class Dealer extends Person {
+public abstract class Dealer extends Person {
 	@Override
 	public boolean hit_me(Table tbl) {
 		int total_value = getTotalValue();
@@ -36,4 +37,6 @@ public class Dealer extends Person {
 
 	}
 
-}
+
+	}
+
